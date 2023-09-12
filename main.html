@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workshop Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box_heading">
+        <h1 class="heading">Voyage Registration Form</h1>
+    </div>
+
+
+    <div class="box_form">
+
+        <form method="POST" action="/register">
+
+            <div class="nameEmailRow">
+                <div class="inputGroup">
+                    <input type="text" name="name" placeholder=" "  required>
+                    <label for="name">Name:</label>
+                </div>
+                
+                <div class="inputGroup">
+                    <input type="email" name="email" placeholder=" "  required>
+                    <label for="email">Email:</label>
+                </div>
+            </div>
+            
+            <div class="inputGroup">
+                <input type="text" name="enrollment" placeholder=" " required>
+                <label for="enrollment">Enrollment No.:</label>
+            </div>
+            
+            <div class="inputGroup">
+                <input type="tel" name="mobile" placeholder=" " required>
+                <label for="mobile">Mobile No.:</label>
+            </div>
+         
+
+            <div class="selectRow">
+            
+                <div class="select-container">
+                    <select name ="Year" class="select-box">
+                        <option value="">Select Your Year</option>
+
+                        <option>1st</option>
+                        <option>2nd</option>
+                        <option>3rd</option>
+                        <option>4th</option>
+                        </select>
+                </div>      
+                <div class="select-container">
+                    <select name = "section" class="select-box">
+                        <option value="">Select Your Section</option>
+                        <option>1CSE1</option>
+                        <option>1CS2</option>
+                        <option>1CS3</option>
+                        <option>2CS1</option>
+                        <option>2CS3</option>
+                        <option>3CS1</option>
+                        <option>3CS2</option>
+                    </select>
+                </div>
+            </div>
+    
+            <div class="box_workshopSelector">
+
+                <h3 class="title_workshop">Workshop Interest :</h3>
+            
+                <div class="workshopSelectBox">
+                    <div class="workshopCheckBox">
+                        <input type="checkbox" name="interests" value="Workshop 1"> 
+                        <div class="workshopInfoBox">
+                            <h3>Workshop 1</h3> 
+                            <br>11 September 2023 11:00 AM
+                        </div>
+                    </div>
+                    <div class="workshopCheckBox">
+                        <input type="checkbox" name="interests" value="Workshop 1"> 
+                        <div class="workshopInfoBox">
+                            <h3>Workshop 1</h3> 
+                            <br>11 September 2023 11:00 AM
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="workshopSelectBox">
+                    <div class="workshopCheckBox">
+                        <input type="checkbox" name="interests" value="Workshop 1"> 
+                        <div class="workshopInfoBox">
+                            <h3>Workshop 1</h3> 
+                            <br>11 September 2023 11:00 AM
+                        </div>
+                    </div>
+                    <div class="workshopCheckBox">
+                        <input type="checkbox" name="interests" value="Workshop 1"> 
+                        <div class="workshopInfoBox">
+                            <h3>Workshop 1</h3> 
+                            <br>11 September 2023 11:00 AM
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="workshopSelectBox">
+                    <div class="workshopCheckBox">
+                        <input type="checkbox" name="interests" value="Workshop 1"> 
+                        <div class="workshopInfoBox">
+                            <h3>Workshop 1</h3> 
+                            <br>11 September 2023 11:00 AM
+                        </div>
+                    </div>
+                    <div class="workshopCheckBox">
+                        <input type="checkbox" name="interests" value="Workshop 1"> 
+                        <div class="workshopInfoBox">
+                            <h3>Workshop 1</h3> 
+                            <br>11 September 2023 11:00 AM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <input type="checkbox" name="interests" value="Workshop 2"> Workshop 2<br>
+            <p>
+                Date-13 September 2023<br>
+            Time-11:00 AM<br>
+            </p> 
+                <input type="checkbox" name="interests" value="Workshop 3"> Workshop 3<br>
+            <p>
+                Date-15 September 2023<br>
+            Time-11:00 AM<br>
+            </p>
+                <input type="checkbox" name="interests" value="Workshop 4"> Workshop 4<br>
+            <p>
+                Date-17 September 2023<br>
+            Time-11:00 AM<br>
+            </p>
+                <input type="checkbox" name="interests" value="Workshop 5"> Workshop 5<br>
+            <p>
+                Date-19 September 2023<br>
+            Time-11:00 AM<br>
+            </p><br><br> -->
+        
+
+            <div class="buttonGroup">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+    <!-- Display the QR code here after submission -->
+</body>
+</html>
